@@ -1,0 +1,437 @@
+{
+	"projectFormatVersion": 1,
+	"savedWithRelease": 29303,
+	"name": "Jet Boy",
+	"runtime": "c3",
+	"useWorker": "auto",
+	"bundleAddons": false,
+	"usedAddons": [
+		{
+			"type": "plugin",
+			"id": "Sprite",
+			"name": "Sprite",
+			"author": "Scirra",
+			"version": "r293.3",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Text",
+			"name": "Text",
+			"author": "Scirra",
+			"version": "r293.3",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Particles",
+			"name": "Particles",
+			"author": "Scirra",
+			"version": "r293.3",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Tilemap",
+			"name": "Tilemap",
+			"author": "Scirra",
+			"version": "r293.3",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Keyboard",
+			"name": "Keyboard",
+			"author": "Scirra",
+			"version": "r293.3",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Mouse",
+			"name": "Mouse",
+			"author": "Scirra",
+			"version": "r293.3",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "progressbar",
+			"name": "Progress bar",
+			"author": "Scirra",
+			"version": "r293.3",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Audio",
+			"name": "Audio",
+			"author": "Scirra",
+			"version": "r293.3",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "solid",
+			"name": "Solid",
+			"author": "Scirra",
+			"version": "r293.3",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "scrollto",
+			"name": "Scroll To",
+			"author": "Scirra",
+			"version": "r293.3",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Platform",
+			"name": "Platform",
+			"author": "Scirra",
+			"version": "r293.3",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Bullet",
+			"name": "Bullet",
+			"author": "Scirra",
+			"version": "r293.3",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Turret",
+			"name": "Turret",
+			"author": "Scirra",
+			"version": "r293.3",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Sin",
+			"name": "Sine",
+			"author": "Scirra",
+			"version": "r293.3",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Tween",
+			"name": "Tween",
+			"author": "Scirra",
+			"version": "r293.3",
+			"bundled": false
+		}
+	],
+	"uniqueId": "pxt7rlpqzor",
+	"objectTypes": {
+		"items": [
+			"Keyboard",
+			"Mouse",
+			"ProgressBar",
+			"Audio"
+		],
+		"subfolders": [
+			{
+				"items": [
+					"Border",
+					"Coin",
+					"Goal",
+					"Ground",
+					"Player",
+					"Level",
+					"Score",
+					"Bullet",
+					"EnemyTurrent",
+					"NoNoSquare",
+					"Background",
+					"JetParticles",
+					"NextLevelParticles",
+					"SpawnParticle",
+					"TMbackground",
+					"TMPlatforms",
+					"Treasure",
+					"TurretBg",
+					"Timer"
+				],
+				"subfolders": [],
+				"name": "Levels"
+			},
+			{
+				"items": [
+					"Play",
+					"Title",
+					"Bg",
+					"Titlebg",
+					"playbg",
+					"Badges",
+					"EndingText",
+					"MenuBg"
+				],
+				"subfolders": [],
+				"name": "Menu"
+			}
+		]
+	},
+	"autosaveData": null,
+	"containers": [],
+	"families": {
+		"items": [],
+		"subfolders": []
+	},
+	"layouts": {
+		"items": [
+			"Level 1",
+			"Level 2",
+			"Level 3",
+			"Level 4",
+			"Menu",
+			"Level 5",
+			"Level 6",
+			"Ending"
+		],
+		"subfolders": []
+	},
+	"eventSheets": {
+		"items": [
+			"Level 1 Event",
+			"Level 2 Event",
+			"Level 3 Event",
+			"Level 4 Event",
+			"MenuSheet",
+			"Level 5 Event",
+			"Level 6 Event",
+			"EndingEvent"
+		],
+		"subfolders": []
+	},
+	"rootFileFolders": {
+		"script": {
+			"items": [],
+			"subfolders": []
+		},
+		"sound": {
+			"items": [
+				{
+					"name": "Death.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 998718700115636,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "Key.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 940278384759689,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "NextLevel.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 354143062064153,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "DoorOpen.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 563118205184580,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "NextLevelBetter.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 554103144097987,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "33.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 322042044008455,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "Fireball.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 431775041618563,
+					"file-info": {
+						"purpose": "none"
+					}
+				}
+			],
+			"subfolders": []
+		},
+		"music": {
+			"items": [
+				{
+					"name": "theme-11.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 253976019627374,
+					"file-info": {
+						"purpose": "none"
+					}
+				}
+			],
+			"subfolders": []
+		},
+		"video": {
+			"items": [],
+			"subfolders": []
+		},
+		"font": {
+			"items": [
+				{
+					"name": "AncientModernTales-a7Po.ttf",
+					"type": "application/font-sfnt",
+					"sid": 508774702122858,
+					"file-info": {
+						"purpose": "none"
+					}
+				}
+			],
+			"subfolders": []
+		},
+		"icon": {
+			"items": [
+				{
+					"name": "icon-128.png",
+					"type": "image/png",
+					"sid": 657115093425116,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-32.png",
+					"type": "image/png",
+					"sid": 563854097977128,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-16.png",
+					"type": "image/png",
+					"sid": 127245701469972,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-64.png",
+					"type": "image/png",
+					"sid": 690091656580595,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-512.png",
+					"type": "image/png",
+					"sid": 210443542895113,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-256.png",
+					"type": "image/png",
+					"sid": 689188324155381,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "loading-logo.png",
+					"type": "image/png",
+					"sid": 461331997919882,
+					"icon-info": {
+						"purpose": "loading-logo"
+					}
+				}
+			],
+			"subfolders": []
+		},
+		"general": {
+			"items": [],
+			"subfolders": []
+		}
+	},
+	"timelines": {
+		"items": [
+			"Timeline 1"
+		],
+		"subfolders": [
+			{
+				"items": [],
+				"subfolders": []
+			}
+		]
+	},
+	"properties": {
+		"description": "",
+		"version": "1.0.0.0",
+		"author": "",
+		"authorEmail": "",
+		"authorWebsite": "",
+		"appId": "",
+		"pixelRounding": true,
+		"zAxisScale": "normalized",
+		"fov": 0.7853981633974483,
+		"useLoaderLayout": false,
+		"fullscreenMode": "letterbox-integer-scale",
+		"fullscreenQuality": "low",
+		"viewportFit": "auto",
+		"backgroundColor": [
+			0,
+			0,
+			0,
+			0
+		],
+		"splashColor": [
+			1,
+			1,
+			1,
+			0
+		],
+		"useThemeColor": false,
+		"themeColor": [
+			1,
+			1,
+			1,
+			0
+		],
+		"orientations": "landscape",
+		"webgpu": "auto",
+		"gpuPreference": "high-performance",
+		"scriptsType": "module",
+		"framerateMode": "vsync",
+		"compositingMode": "standard",
+		"sampling": "nearest",
+		"downscaling": "medium",
+		"renderingMode": "auto",
+		"anisotropicFiltering": "auto",
+		"maxSpriteSheetSize": 2048,
+		"loaderStyle": "splash",
+		"preloadSounds": true,
+		"cordovaiOSScheme": "app",
+		"cordovaAndroidScheme": "https"
+	},
+	"viewportWidth": 1708,
+	"viewportHeight": 961,
+	"firstLayout": null
+}
